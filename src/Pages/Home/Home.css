@@ -1,0 +1,13 @@
+.footer {
+    background-color: black !important;
+}
+.footer .widget-title{
+    color: white !important;
+    font-family: 'Poppins';
+}
+.widget-about-title{
+    color: white !important;
+}
+a{
+    font-family: 'Poppins';
+}

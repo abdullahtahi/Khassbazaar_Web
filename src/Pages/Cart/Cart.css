@@ -1,0 +1,31 @@
+.product-title{
+    font-size: 1rem !important;
+}
+.table.table-summary{
+line-height: 1rem;
+margin: -10px;
+
+}
+.summary-subtotal{
+    margin: -10px;
+}
+.table.table-summary thead th, .table.table-summary .summary-subtotal td{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.table.table-summary .summary-shipping {
+    color: #333;
+    font-weight: 700;
+    font-size: 1rem;
+}
+.table .price-col {
+    width: 180px;
+    color: #333;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.table .total-col{
+    color: #c96;
+    font-weight: 400;
+    font-size: 1rem;
+}
