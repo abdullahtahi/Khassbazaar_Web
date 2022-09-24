@@ -11,7 +11,7 @@ import bag1 from "../../assesst/bag1.jpg";
 import bags from "../../assesst/bags.jpg";
 import Screenshot_3 from "../../assesst/Screenshot_3.png";
 import Grid from "@mui/material/Grid";
-import "./Home.css";
+import "./HomePage.css";
 import axios from "axios";
 import { Link } from "react-router-dom";
 import Cards from "../../Component/Cards/Cards";
@@ -60,16 +60,21 @@ export default function Home() {
             }}
           >
             Trending Design
-            <Carousel autoPlay interval="2000" infiniteLoop stopOnHover={true}>
+            <Carousel
+              autoPlay={true}
+              interval="2000"
+              infiniteLoop={true}
+              stopOnHover={true}
+            >
               <div>
-                <img src={bag1} style={{ height: "300px", width: "90%" }} />
+                <img src={bag1} style={{ height: "100%", width: "90%" }} />
               </div>
               <div>
-                <img style={{ height: "300px", width: "90%" }} src={bags} />
+                <img style={{ height: "100%", width: "90%" }} src={bags} />
               </div>
               <div>
                 <img
-                  style={{ height: "300px", width: "90%" }}
+                  style={{ height: "100%", width: "90%" }}
                   src={Screenshot_3}
                 />
               </div>
